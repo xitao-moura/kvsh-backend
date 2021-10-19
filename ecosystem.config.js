@@ -7,11 +7,11 @@ module.exports = {
         args: 'start',
         env: {
           NODE_ENV: 'production',
-          DATABASE_HOST: 'localhost', // database endpoint
+          DATABASE_HOST: '127.0.0.1', // database endpoint
           DATABASE_PORT: '27017',
-          DATABASE_NAME: 'backend', // DB name
-          DATABASE_USERNAME: 'kvshapi', // your username for psql
-          DATABASE_PASSWORD: 'rewq987aa', // your password for psql
+          DATABASE_NAME: 'kvsh', // DB name
+          DATABASE_USERNAME: 'kvsh', // your username for psql
+          DATABASE_PASSWORD: 'kvsh@!', // your password for psql
         },
       },
     ],
