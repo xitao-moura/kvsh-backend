@@ -1,0 +1,40 @@
+{
+  "kind": "collectionType",
+  "collectionName": "lancamentos",
+  "info": {
+    "name": "Lançamentos",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "imagem": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true,
+      "pluginOptions": {}
+    },
+    "titulo": {
+      "type": "string",
+      "required": true
+    },
+    "url": {
+      "type": "string",
+      "required": true
+    },
+    "destaque": {
+      "type": "boolean",
+      "default": false,
+      "required": true,
+      "unique": false
+    }
+  }
+}

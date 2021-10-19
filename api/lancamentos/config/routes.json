@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/lancamentos",
+      "handler": "lancamentos.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/lancamentos/count",
+      "handler": "lancamentos.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/lancamentos/:id",
+      "handler": "lancamentos.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/lancamentos",
+      "handler": "lancamentos.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/lancamentos/:id",
+      "handler": "lancamentos.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/lancamentos/:id",
+      "handler": "lancamentos.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

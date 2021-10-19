@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/kvsh-gangs",
+      "handler": "kvsh-gang.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/kvsh-gangs/count",
+      "handler": "kvsh-gang.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/kvsh-gangs/:id",
+      "handler": "kvsh-gang.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/kvsh-gangs",
+      "handler": "kvsh-gang.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/kvsh-gangs/:id",
+      "handler": "kvsh-gang.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/kvsh-gangs/:id",
+      "handler": "kvsh-gang.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "kind": "collectionType",
+  "collectionName": "kvsh_gangs",
+  "info": {
+    "name": "Kvsh Gang"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "email": {
+      "type": "email",
+      "required": true
+    }
+  }
+}
