@@ -8,7 +8,7 @@ module.exports = ({ env }) => ({
         srv: env.bool('DATABASE_SRV', false),
         port: env.int('DATABASE_PORT', 27017),
         database: env('DATABASE_NAME', 'backend'),
-        username: env('DATABASE_USERNAME', 'kvsh'),
+        username: env('DATABASE_USERNAME', 'kvshapi'),
         password: env('DATABASE_PASSWORD', 'rewq987aa'),
       },
       options: {

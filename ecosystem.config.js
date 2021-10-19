@@ -10,7 +10,7 @@ module.exports = {
           DATABASE_HOST: 'localhost', // database endpoint
           DATABASE_PORT: '27017',
           DATABASE_NAME: 'backend', // DB name
-          DATABASE_USERNAME: 'kvsh', // your username for psql
+          DATABASE_USERNAME: 'kvshapi', // your username for psql
           DATABASE_PASSWORD: 'rewq987aa', // your password for psql
         },
       },
